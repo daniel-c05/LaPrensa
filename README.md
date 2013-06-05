@@ -28,4 +28,4 @@ License
     limitations under the License.
 
 
- [1]: www.laprensa.com.ni
+ [1]: http://www.laprensa.com.ni/
