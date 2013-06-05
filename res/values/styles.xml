@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+            
+    <!-- Transparent Theme for gallery -->
+    
+    <style name="Theme.Transparent_ActionBar" parent="@style/Theme.Sherlock">
+        <item name="actionBarStyle">@style/ActionBar.Transparent.Laprensa_compat_holo_light</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+    
+     <style name="ActionBar.Transparent.Transparent_ActionBar" parent="@style/Theme.Transparent_ActionBar">
+        <item name="background">@drawable/ab_transparent_laprensa_compat_holo_light</item>
+        <item name="progressBarStyle">@style/ProgressBar.Laprensa_compat_holo_light</item>
+    </style>     
+
+    <style name="Theme.NoBackground" parent="AppBaseTheme">
+
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@color/bg_light_gray</item>
+    </style>
+
+    <style name="headerTextBoldNoUnderline" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="headerSmallTextBoldNoUnderline" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="headerTextBoldWithUnderline" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="subHeaderTextSmall" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="headerTextItalicNoUnderline" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:minHeight">48dp</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="normalTextThin" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@drawable/splash</item>             
+    </style>
+
+</resources>

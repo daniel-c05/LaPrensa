@@ -1,0 +1,7 @@
+<resources>
+
+  	<!-- Sliding Menu dimens  -->
+    
+    <dimen name="slidingmenu_offset">384dp</dimen>    
+
+</resources>

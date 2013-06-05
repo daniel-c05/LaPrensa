@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <TextView
+        android:id="@+id/custom_message_bar"
+        style="@style/subHeaderTextSmall"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:background="#808080"
+        android:gravity="center_horizontal|center_vertical"
+        android:textColor="#fff"
+        android:visibility="gone" />
+
+    <ListView
+        android:id="@+id/all_apps_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="8dp"
+        android:listSelector="@color/la_prensa_gray" />
+
+    <include layout="@layout/empty" />    
+
+</LinearLayout>

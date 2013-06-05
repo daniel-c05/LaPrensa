@@ -1,0 +1,23 @@
+<resources>
+
+    <!--
+        Base application theme for API 14+. This theme completely replaces
+        AppBaseTheme from BOTH res/values/styles.xml and
+        res/values-v11/styles.xml on API 14+ devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+        
+    <!-- Transparent Theme for gallery -->
+    
+    <style name="Theme.Transparent_ActionBar" parent="@style/Theme.Sherlock">
+        <item name="android:actionBarStyle">@style/ActionBar.Transparent.Laprensa_compat_holo_light</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>   
+    
+     <style name="ActionBar.Transparent.Transparent_ActionBar" parent="@style/Theme.Transparent_ActionBar">
+        <item name="android:background">@drawable/ab_transparent_laprensa_compat_holo_light</item>
+        <item name="android:progressBarStyle">@style/ProgressBar.Laprensa_compat_holo_light</item>
+    </style>
+</resources>

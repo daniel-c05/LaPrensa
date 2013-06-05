@@ -1,0 +1,38 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_calendar"
+        android:icon="@drawable/ic_action_calendar_day"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/calendar"/>
+    <item
+        android:id="@+id/action_show_bookmark"
+        android:icon="@drawable/ic_action_bookmark"
+        android:orderInCategory="200"
+        android:showAsAction="ifRoom"
+        android:title="@string/show_bookmarks"/>
+    <item
+        android:id="@+id/action_refresh"
+        android:icon="@drawable/ic_action_reload"
+        android:orderInCategory="300"
+        android:showAsAction="ifRoom"
+        android:title="@string/refresh"/>
+    <item
+        android:id="@+id/action_search_articles"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="400"
+        android:showAsAction="ifRoom"
+        android:title="@string/hint_search"/>
+    <item
+        android:id="@+id/action_back_to_top"
+        android:orderInCategory="500"
+        android:showAsAction="never"
+        android:title="@string/back_to_top"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="600"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+
+</menu>

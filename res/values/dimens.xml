@@ -1,0 +1,53 @@
+<resources>
+
+    <dimen name="activity_horizontal_margin">8dp</dimen>
+    <dimen name="activity_vertical_margin">8dp</dimen>
+    
+    <dimen name="bookmark_image_height">240dp</dimen>
+    <dimen name="bookmark_image_height_large_text">320dp</dimen>
+    <dimen name="bookmark_image_height_extra_large_text">360dp</dimen>
+    <dimen name="normal_image_height">120dp</dimen>
+    <dimen name="square_image_height">240dp</dimen>
+    <dimen name="tutorial_image_margin">8dp</dimen>
+    
+    <dimen name="article_image_min_height">120dp</dimen>
+    <dimen name="article_image_min_width">120dp</dimen>
+    
+    <!-- Sliding Menu dimens  -->
+    
+    <dimen name="slidingmenu_offset">144dp</dimen>
+    <dimen name="slidingmenu_no_offset">0dp</dimen>
+    <dimen name="slidingmenu_shadow">8dp</dimen>
+    
+    <!-- Text Sizes -->
+    
+    <dimen name="title_size_small">14sp</dimen>
+    <dimen name="title_size_medium">16sp</dimen>
+    <dimen name="title_size_large">20sp</dimen>
+    <dimen name="title_size_extra_large">22sp</dimen>
+    
+    <dimen name="description_size_small">12sp</dimen>
+    <dimen name="description_size_medium">14sp</dimen>
+    <dimen name="description_size_large">18sp</dimen>
+    <dimen name="description_size_extra_large">20sp</dimen>
+    
+    <dimen name="content_size_small">16sp</dimen>
+    <dimen name="content_size_medium">18sp</dimen>
+    <dimen name="content_size_large">22sp</dimen>
+    <dimen name="content_size_extra_large">24sp</dimen>
+    
+    <dimen name="section_size_small">16sp</dimen>
+    <dimen name="section_size_medium">18sp</dimen>
+    <dimen name="section_size_large">22sp</dimen>
+    <dimen name="section_size_extra_large">24sp</dimen>
+    
+     <!-- Text size for action bar titles -->
+    <dimen name="action_bar_title_text_size">18dp</dimen>
+    <!-- Text size for action bar subtitles -->
+    <dimen name="action_bar_subtitle_text_size">14dp</dimen>
+    <!-- Top margin for action bar subtitles -->
+    <dimen name="action_bar_subtitle_top_margin">-3dp</dimen>
+    <!-- Bottom margin for action bar subtitles -->
+    <dimen name="action_bar_subtitle_bottom_margin">5dip</dimen>
+
+</resources>

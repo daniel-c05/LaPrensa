@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources >
+    <color name="la_prensa_blue">#0D72B9</color>
+    <color name="la_prensa_gray">#22333333</color>
+    <color name="bg_gray">#80B3B3B3</color>
+    <color name="bg_transparent_gray">#60F2F2F2</color>
+    <color name="bg_light_gray">#F2F2F2</color>
+    <color name="bg_dark_gray">#bebebe</color>
+    <color name="transparent_white">#60FFFFFF</color>
+    <color name="bg_sepia">#EFDBB7</color>
+    <color name="bg_black">#2A2A2A</color>
+    <color name="font_color_on_sepia">#1C1C1B</color>
+    <color name="font_color_on_dark_primary">#ffffffff</color>
+    <color name="font_color_on_dark_secondary">#bebebe</color>
+    <color name="font_color_on_light_primary">#ff000000</color>
+    <color name="font_color_on_light_secondary">#323232</color>
+    
+</resources>

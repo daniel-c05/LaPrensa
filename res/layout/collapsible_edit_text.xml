@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/collapsible_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+    <EditText
+        android:id="@+id/collapsible_input"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_search"
+        android:inputType="text"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        android:imeOptions="actionDone"
+        android:paddingRight="48dp"
+        android:scrollHorizontally="true"
+        android:textColor="@android:color/white"
+        android:textColorHint="@color/font_color_on_dark_secondary" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/collapsible_action_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@drawable/btn_selector"
+        android:contentDescription="@string/content_descrp_clear"
+        android:src="@drawable/ic_action_cancel"
+        android:visibility="gone" />
+
+</RelativeLayout>

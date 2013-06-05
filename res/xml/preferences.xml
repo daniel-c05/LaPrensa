@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/pref_title_category_reader_ui" >
+        <ListPreference
+            android:defaultValue="@string/pref_default_reader_theme"
+            android:entries="@array/pref_entries_reader_theme"
+            android:entryValues="@array/pref_values_reader_theme"
+            android:key="@string/pref_key_reader_theme"
+            android:title="@string/pref_title_reader_theme" />
+        <ListPreference
+            android:defaultValue="@string/pref_default_font_size"
+            android:entries="@array/pref_font_size_entries"
+            android:entryValues="@array/pref_font_size_values"
+            android:key="@string/pref_key_font_size"
+            android:title="@string/pref_title_font_size" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_category_sync" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/pref_key_sync_on_launch"
+            android:summary="@string/pref_summary_sync_on_launch"
+            android:title="@string/pref_title_sync_on_launch" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_sync_interval"
+            android:entries="@array/pref_sync_interval_entries"
+            android:entryValues="@array/pref_sync_interval_values"
+            android:key="@string/pref_key_sync_interval"
+            android:summary="@string/pref_summary_sync_interval"
+            android:title="@string/pref_title_sync_interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_category_cache_management" >
+        <Preference
+            android:key="@string/pref_key_clear_cache"
+            android:summary="@string/pref_summary_clear_cache"
+            android:title="@string/pref_title_clear_cache" />
+
+        <ListPreference
+            android:defaultValue="@string/pref_default_ccleaner_interval"
+            android:entries="@array/pref_ccleaner_interval_entries"
+            android:entryValues="@array/pref_ccleaner_interval_values"
+            android:key="@string/pref_key_ccleaner_interval"
+            android:summary="@string/pref_summary_ccleaner_interval"
+            android:title="@string/pref_title_ccleaner_interval" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_title_category_about" >
+        <Preference
+            android:key="@string/pref_key_app_version"
+            android:title="@string/pref_title_version" />
+        <Preference
+            android:key="@string/pref_key_view_tutorial"
+            android:title="@string/pref_title_view_tutorial" />        
+        <Preference
+            android:key="@string/pref_key_privacy_policy"
+            android:title="@string/pref_title_privacy_policy" />
+        <Preference
+            android:key="@string/pref_key_open_source_licences"
+            android:title="@string/pref_title_open_source_licences" />
+        <Preference
+            android:key="@string/pref_key_send_feedback"
+            android:title="@string/pref_title_send_feedback" />
+        <Preference
+            android:key="@string/pref_key_report_problem"
+            android:title="@string/pref_title_report_problem" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:padding="8dp"        
+        android:minHeight="48dp"
+        android:gravity="center_vertical"
+        android:textColor="?android:attr/textColorSecondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/description_size_large"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/page_three_msg_one"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/tutorial_image_margin"
+        android:layout_height="@dimen/normal_image_height"
+        android:src="@drawable/por_fecha_one" />
+    
+    <TextView 
+        android:padding="8dp"        
+        android:textColor="?android:attr/textColorSecondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/description_size_large"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/page_three_msg_two"
+        />
+    
+       <ImageView
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/tutorial_image_margin"
+        android:layout_height="@dimen/square_image_height"
+        android:src="@drawable/por_fecha_dos" />
+       
+        <TextView 
+        android:padding="8dp"        
+        android:textColor="?android:attr/textColorSecondary"
+        android:fontFamily="sans-serif-light"
+        android:textSize="@dimen/description_size_large"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/page_three_msg_three"
+        />
+       </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="welcome_message">¡Bienvenido a La Prensa para Android!</string>
+    <string name="welcome_message_one">A continuación verás un pequeño tutorial de como sacarle el mayor provecho a esta aplicación, haciendo fácil su uso, y mejorando tu experiencia en general. </string>
+    <string name="skip">Saltar tutorial</string>
+    <string name="finish">Terminar</string>
+    <string name="page_two_msg_one">Con La Prensa para Android puedes leer los artículos de cualquier sección del periódico que prefieras. Sólo dale un click al ícono de La Prensa en la barra principal.</string>
+<string name="page_two_msg_tw">Así podrás ver todas las secciones disponibles en la barra lateral.
+</string>
+
+<string name="page_three_msg_one">También puedes volver en el tiempo y buscar artículos de fechas anteriores, sólo dale click al ícono del calendario en la barra principal. 
+</string>
+
+<string name="page_three_msg_two">Selecciona la fecha adecuada en el diálogo</string>
+<string name="page_three_msg_three">Y una vez cambiada la fecha podrás también navegar las diferentes secciones del periódico para esa fecha en particular.</string>
+
+<string name="page_four_msg_one">¿No tienes tiempo de leer un artículo ahora, pero el título te intriga? No hay problema, mantén un click presionado por unos segundos en el artículo de tu preferencia para ver las opciones adicionales.  
+</string>
+<string name="page_four_msg_two">Selecciona la opción \'Agregar a marcadores\', y la aplicación descargará el contenido del artículo por tí.</string>
+<string name="page_four_msg_three">Para verlo luego, sólo selecciona el ícono de marcadores en la barra principal.  
+</string>
+<string name="page_five_mgs_one">¡Gracias por descargar la aplicación de La Prensa!
+</string>
+<string name="page_five_mgs_two">¿Tienes dudas, consultas, solicitudes, o quieres reportar un problema? Es simple, entra a \'Configuración\' - \'Acerca de esta aplicación\' - Y selecciona \'Reporta un problema\' o \'Comparte tu opinión\'
+</string>
+<string name="take_me_to_the_app">Volver a la aplicación</string>
+
+</resources>

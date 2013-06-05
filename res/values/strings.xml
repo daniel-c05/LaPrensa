@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">La Prensa</string>
+    <string name="action_settings">Configuración</string>
+    <string name="action_download_photo">Guardar Imagen</string>
+    <string name="next">Siguiente</string>
+    <string name="previous">Anterior</string>
+    <string name="remove_from_bookmarks">Remover de marcadores</string>
+    <string name="refresh">Recargar</string>
+    <string name="reload_article">Recargar artículo</string>
+    <string name="calendar">Busqueda por fecha</string>
+    <string name="bookmark">Guardar a marcadores</string>
+    <string name="show_bookmarks">Mostrar marcadores</string>
+    <string name="back_to_top">Volver a tope de lista</string>
+    <string name="back_to_today">Ver fecha actual</string>
+    <string name="share_prompt">Comparte este artículo</string>
+    <string name="email_prompt">Comparte tu opinión</string>
+    <string name="share">Compartir artículo</string>
+    <string name="change_font_size">Cambiar tamaño de letra</string>
+    <string name="font_small">Pequeña</string>
+    <string name="font_medium">Mediana</string>
+    <string name="font_grande">Grande</string>
+    <string name="hint_search">Buscar Artículos</string>
+    <string name="content_descrp_clear">Limpiar Texto</string>
+
+    <plurals name="new_articles">
+        <item quantity="zero">No hay artículos nuevos</item>
+        <item quantity="one">Un artículo nuevo</item>
+        <item quantity="other">%d artículos nuevos</item>
+    </plurals>
+
+    <string name="no_new_articles">No hay artículos nuevos</string>
+    <string name="refresh_toast_message">Cargando más artículos</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_connection">No hay conexión a internet</string>
+    <string name="portada">Portada</string>
+    <string name="ambitos">Ambitos</string>
+    <string name="play">Play</string>
+    <string name="poderes">Poderes</string>
+    <string name="reportajes">Reportajes</string>
+    <string name="marcadores">Marcadores</string>
+    <string name="vida">Vida</string>
+    <string name="voces">Voces</string>
+    <string name="activos">Activos</string>
+    <string name="planeta">Planeta</string>
+    <string name="cultura">Cultura</string>
+    <string name="tecnologia">Tecnología</string>
+    <string name="departamentales">Departamentales</string>
+    <string name="empty"></string>
+    <string name="empresariales">Empresariales</string>
+    <string name="contactenos">Contactenos</string>
+    <string name="prensa_tv">La Prensa TV</string>
+    <string name="otras_secciones">Otras secciones</string>
+    <string name="date_picker_title">Artículos por fecha</string>
+    <string name="date_picker_prompt">Escoje</string>
+    <string name="publicidad">Publicidad</string>
+    <string name="prensi_guia">PrensiGuía</string>
+    <string name="equipo_de_ventas">Equipo de Ventas</string>
+    <string name="empty_label">No hay artículos para mostrar.</string>
+
+    <string-array name="colleccion_secciones">
+        <item>@string/portada</item>
+        <item>@string/ambitos</item>
+        <item>@string/play</item>
+        <item>@string/poderes</item>
+        <item>@string/reportajes</item>
+        <item>@string/vida</item>
+        <item>@string/voces</item>
+        <item>@string/activos</item>
+        <item>@string/planeta</item>
+        <item>@string/cultura</item>
+        <item>@string/tecnologia</item>
+        <item>@string/departamentales</item>
+        <item>@string/empresariales</item>
+        <item>@string/contactenos</item>
+    </string-array>
+
+    <string name="title_activity_article_hub">ArticleHub</string>
+    <string name="label_activity_article_hub">Leer Artículo</string>
+    <string name="title_activity_user_preferences">Configuración</string>
+
+    <!-- Posiciones de trabajo -->
+    <string name="publicidad_posicion_uno">Editor en jefe</string>
+    <string name="publicidad_posicion_dos">Editora de día</string>
+    <string name="publicidad_posicion_tres">Editor de cierre</string>
+    <string name="publicidad_posicion_cuatro">Editor de Domingo y Magazine</string>
+    <string name="publicidad_posicion_cinco">Editora Web</string>
+    <string name="publicidad_posicion_seis">Editor de Voces</string>
+    <string name="publicidad_posicion_siete">Editor de Ámbitos</string>
+    <string name="publicidad_posicion_ocho">Editor de Poderes</string>
+    <string name="publicidad_posicion_nueve">Editora de Departamentales</string>
+    <string name="publicidad_posicion_diez">Editora de Activos</string>
+    <string name="publicidad_posicion_once">Editor de Vida</string>
+    <string name="publicidad_posicion_doce">Editora de Literaria</string>
+    <string name="publicidad_posicion_trece">Editor de Play</string>
+    <string name="publicidad_posicion_catorce">Editora de Planeta</string>
+    <string name="publicidad_posicion_quince">Gerente de Ventas</string>
+    <string name="publicidad_posicion_dieciseis">Coordinadora de Ventas</string>
+    <string name="publicidad_posicion_diecisiete">Coordinadora Web</string>
+    <string name="publicidad_posicion_dieciocho">Coordinadora Prensiguía</string>
+
+    <string-array name="publicidad_posiciones">
+        <item>@string/publicidad_posicion_uno</item>
+        <item>@string/publicidad_posicion_dos</item>
+        <item>@string/publicidad_posicion_tres</item>
+        <item>@string/publicidad_posicion_cuatro</item>
+        <item>@string/publicidad_posicion_cinco</item>
+        <item>@string/publicidad_posicion_seis</item>
+        <item>@string/publicidad_posicion_siete</item>
+        <item>@string/publicidad_posicion_ocho</item>
+        <item>@string/publicidad_posicion_nueve</item>
+        <item>@string/publicidad_posicion_diez</item>
+        <item>@string/publicidad_posicion_once</item>
+        <item>@string/publicidad_posicion_doce</item>
+        <item>@string/publicidad_posicion_trece</item>
+        <item>@string/publicidad_posicion_catorce</item>
+    </string-array>
+    <string-array name="ventas_posiciones">
+        <item>@string/publicidad_posicion_quince</item>
+        <item>@string/publicidad_posicion_dieciseis</item>
+        <item>@string/publicidad_posicion_diecisiete</item>
+        <item>@string/publicidad_posicion_dieciocho</item>
+    </string-array>
+
+    <string name="publicidad_nombre_uno">Eduardo Enríquez</string>
+    <string name="publicidad_nombre_dos">Nohelia González</string>
+    <string name="publicidad_nombre_tres">Freddy Potoy</string>
+    <string name="publicidad_nombre_cuatro">Fabián Medina</string>
+    <string name="publicidad_nombre_cinco">Martha Solano Martínez</string>
+    <string name="publicidad_nombre_seis">Luis Sánchez</string>
+    <string name="publicidad_nombre_siete">José Adán Silva</string>
+    <string name="publicidad_nombre_ocho">César Úbeda</string>
+    <string name="publicidad_nombre_nueve">Noelia Sánchez</string>
+    <string name="publicidad_nombre_diez">Gisella Canales</string>
+    <string name="publicidad_nombre_once">Mario Guevara</string>
+    <string name="publicidad_nombre_doce">Marta Leonor González</string>
+    <string name="publicidad_nombre_trece">Edgard Rodríguez</string>
+    <string name="publicidad_nombre_catorce">Francis García</string>
+    <string name="publicidad_nombre_quince">Ethel Dinter</string>
+    <string name="publicidad_nombre_dieciseis">Amanda López</string>
+    <string name="publicidad_nombre_diecisiete">Scarleth Tenorio</string>
+    <string name="publicidad_nombre_dieciocho">Lisseth Tellez</string>
+
+    <string-array name="publicidad_nombres">
+        <item>@string/publicidad_nombre_uno</item>
+        <item>@string/publicidad_nombre_dos</item>
+        <item>@string/publicidad_nombre_tres</item>
+        <item>@string/publicidad_nombre_cuatro</item>
+        <item>@string/publicidad_nombre_cinco</item>
+        <item>@string/publicidad_nombre_seis</item>
+        <item>@string/publicidad_nombre_siete</item>
+        <item>@string/publicidad_nombre_ocho</item>
+        <item>@string/publicidad_nombre_nueve</item>
+        <item>@string/publicidad_nombre_diez</item>
+        <item>@string/publicidad_nombre_once</item>
+        <item>@string/publicidad_nombre_doce</item>
+        <item>@string/publicidad_nombre_trece</item>
+        <item>@string/publicidad_nombre_catorce</item>
+    </string-array>
+    <string-array name="ventas_nombres">
+        <item>@string/publicidad_nombre_quince</item>
+        <item>@string/publicidad_nombre_dieciseis</item>
+        <item>@string/publicidad_nombre_diecisiete</item>
+        <item>@string/publicidad_nombre_dieciocho</item>
+    </string-array>
+
+    <string name="publicidad_email_uno">eduardo-enriquez@laprensa.com.ni</string>
+    <string name="publicidad_email_dos">nohelia-gonzalez@laprensa.com.ni</string>
+    <string name="publicidad_email_tres">freddy-potoy@laprensa.com.ni</string>
+    <string name="publicidad_email_cuatro">fabian-medina@laprensa.com.ni</string>
+    <string name="publicidad_email_cinco">martha-solano@laprensa.com.ni</string>
+    <string name="publicidad_email_seis">opinion@laprensa.com.ni</string>
+    <string name="publicidad_email_siete">ambitos@laprensa.com.ni</string>
+    <string name="publicidad_email_ocho">poderes@laprensa.com.ni</string>
+    <string name="publicidad_email_nueve">hechos@laprensa.com.ni</string>
+    <string name="publicidad_email_diez">activos@laprensa.com.ni</string>
+    <string name="publicidad_email_once">vida@laprensa.com.ni</string>
+    <string name="publicidad_email_doce">literaria@laprensa.com.ni</string>
+    <string name="publicidad_email_trece">play@laprensa.com.ni</string>
+    <string name="publicidad_email_catorce">francis.garcia@laprensa.com.ni</string>
+    <string name="publicidad_email_quince">ethel.dinter@laprensa.com.ni</string>
+    <string name="publicidad_email_dieciseis">amanda.lopez@laprensa.com.ni</string>
+    <string name="publicidad_email_diecisiete">scarleth.tenorio@laprensa.com.ni</string>
+    <string name="publicidad_email_dieciocho">lisseth.tellez@laprensa.com.ni</string>
+
+    <string-array name="publicidad_emails">
+        <item>@string/publicidad_email_uno</item>
+        <item>@string/publicidad_email_dos</item>
+        <item>@string/publicidad_email_tres</item>
+        <item>@string/publicidad_email_cuatro</item>
+        <item>@string/publicidad_email_cinco</item>
+        <item>@string/publicidad_email_seis</item>
+        <item>@string/publicidad_email_siete</item>
+        <item>@string/publicidad_email_ocho</item>
+        <item>@string/publicidad_email_nueve</item>
+        <item>@string/publicidad_email_diez</item>
+        <item>@string/publicidad_email_once</item>
+        <item>@string/publicidad_email_doce</item>
+        <item>@string/publicidad_email_trece</item>
+        <item>@string/publicidad_email_catorce</item>
+    </string-array>
+    <string-array name="ventas_emails">
+        <item>@string/publicidad_email_quince</item>
+        <item>@string/publicidad_email_dieciseis</item>
+        <item>@string/publicidad_email_diecisiete</item>
+        <item>@string/publicidad_email_dieciocho</item>
+    </string-array>
+
+    <string name="publicidad_tel_uno">22556767 Ext. 5202</string>
+    <string name="publicidad_tel_dos">22556767 Ext. 5203</string>
+    <string name="publicidad_tel_tres">22556767 Ext. 5210</string>
+    <string name="publicidad_tel_cuatro">22556767 Ext. 5211</string>
+
+    <string-array name="ventas_telefonos">
+        <item>@string/publicidad_tel_uno</item>
+        <item>@string/publicidad_tel_dos</item>
+        <item>@string/publicidad_tel_tres</item>
+        <item>@string/publicidad_tel_cuatro</item>
+    </string-array>
+    
+    <string name="download_description">Guardando imagen en la memoria.</string>
+
+    <string name="title_activity_tutorial">Tutorial</string>
+    <string name="title_activity_empty">Empty</string>
+    <string name="title_activity_empty_holder">EmptyHolder</string>
+    <string name="title_activity_splash">Splash</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_search_results">Busquéda</string>
+    <string name="title_activity_photo_viewer">PhotoViewer</string>    
+
+</resources>

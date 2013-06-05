@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minHeight="48dp"
+    android:orientation="vertical" >
+
+    <!-- First Person -->
+
+    <TextView
+        android:id="@+id/contact_job_title"
+        style="@style/headerSmallTextBoldNoUnderline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/publicidad_posicion_uno"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/contact_name"
+        style="@style/headerTextItalicNoUnderline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/publicidad_nombre_uno"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/contact_email"
+        style="@style/headerTextItalicNoUnderline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/publicidad_email_uno"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/contact_phone"
+        style="@style/headerTextItalicNoUnderline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:text="@string/publicidad_tel_uno"
+        android:textIsSelectable="true" />
+
+</LinearLayout>
